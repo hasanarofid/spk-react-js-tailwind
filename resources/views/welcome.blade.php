@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website</title>
 </head>
 <body>
-
-    <h1>Hello Laravel Vite</h1>
-    <div id="hello-react"></div>
-
+    <section class="home-section bg-cover bg-center h-screen flex items-center justify-center">
+        <!-- Your content goes here -->
+        <h1 class="text-4xl text-white">Welcome to Your Website</h1>
+    </section>
 </body>
-    <script type="module" src="http://127.0.0.1:3000/resources/js/app.js"></script>
 </html>
